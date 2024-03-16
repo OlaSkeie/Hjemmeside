@@ -1,0 +1,272 @@
+h1 {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif, poppins;
+    border: 10px;
+    margin: 0;
+    top: -30px;
+
+}
+#tlf-tekst{
+    position: relative;
+    color:white;
+    top:-1000px;
+    left: -293px;
+}
+#tlf{
+    position: relative;
+    font-size:5px;
+    top: -990px;
+    left:-282px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+#navn{
+    position: relative;
+    top:-650px;
+    left: 150px;
+    background-color:whitesmoke;
+    height: 30px;
+    width: 300px;
+    border-color: rgb(52, 94, 201);
+    border-radius: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#gmail{
+    position: relative;
+    font-size:5px;
+    top: -990px;
+    left:-215px;
+    height: 50px;
+    width: 50px;
+}
+#mailAdresse{
+    position: relative;
+    color:white;
+    top:-1000px;
+    left: -280px;
+    
+}
+#epost{
+    position: relative;
+    top:-650px;
+    left: 150px;
+    background-color:whitesmoke;
+    height: 30px;
+    width: 300px;
+    border-color: rgb(52, 94, 201);
+    border-radius: 10px;
+}
+#melding{
+    position: relative;
+    top:-650px;
+    left: 150px;
+    background-color:whitesmoke;
+    height: 150px;
+    width: 300px;
+    border-color: rgb(52, 94, 201);
+    vertical-align: top;
+    border-radius: 10px;
+}
+#send{
+    position: relative;
+    top:-650px;
+    left:100px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#sub{
+    position: relative;
+    top:-650px;
+    left: -280px;
+    
+}
+#kontakt-meg{
+    position: relative;
+    top:-630px;
+    color:white;
+}
+
+@media (min-width: 1280px) {
+    .left-side {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 100%;
+        background-image: linear-gradient(to right, #1d222c, rgb(49, 58, 66));
+    }
+}
+
+@media (min-width: 1280px) {
+    .right-side {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 20%;
+        /* Adjust the width as needed */
+        height: 100%;
+        background-image: linear-gradient(to left, #1d222c, rgb(49, 58, 66));
+    }
+}
+
+#student {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: -40px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+#container {
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    height: 100%;
+    width: 100%;
+    margin-bottom:0;
+}
+
+#Om_meg {
+    position: relative;
+    top: -200px;
+    left: 65px;
+    color: white;
+}
+
+/* bilde container */
+.image-container {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    top: -665px;
+    left: -160px;
+    overflow: hidden;
+}
+#linkedin{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: -238px;
+    left: 170px;
+    background-color: #278fb4;
+    font-size: 15px;
+    font-family: arial;
+    border-radius:10px;
+}
+#linkedin:hover {
+    background-color: rgb(30, 76, 108);
+}
+
+/* resized bilde */
+.resized-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.resized-image:hover {
+    transform: rotate(10deg);
+}
+
+.text-box {
+    color: white;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+body {
+    background-image: linear-gradient(to bottom, #14161d, rgb(49, 58, 66));
+    min-height: 1000px;
+    height:100%;
+    margin-bottom:0px;
+   
+    
+}
+
+#hei {
+    text-align: center;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    margin: 5;
+    font-family: arial;
+}
+#github{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: -172px;
+    left: -161px;
+    background-color: #278fb4;
+    font-size: 15px;
+    font-family: arial;
+    border-radius:10px;
+}
+#github:hover {
+    background-color: rgb(30, 76, 108);
+}
+#cv {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: -40px;
+    left: -51px;
+    background-color: #278fb4;
+    font-size: 15px;
+    font-family: arial;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+#boks_meg {
+    position: relative;
+    left: 160px;
+    color: white;
+    top: -230px;
+    letter-spacing: 2px;
+    overflow: hidden;
+}
+
+#cv:hover {
+    background-color: rgb(37, 88, 151);
+}
+
+#kontakt {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: -106px;
+    left: 60px;
+    border-radius:10px;
+    color: black;
+    background-color: #278fb4;
+    font-size: 15px;
+    font-family: arial;
+    overflow: hidden;
+}
+
+#kontakt:hover {
+    background-color: rgb(30, 76, 108);
+}
